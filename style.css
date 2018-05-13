@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: 900px;
+    margin: 60px auto 80px auto;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+img {
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.ak-lazy-img {
+    display: block;
+    background-color: #ececec;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+}
+
+.ak-lazy-img--disabled {
+    opacity: 0;
+    /*transition: opacity .2s ease-in-out;*/
+}
